@@ -4,6 +4,7 @@ const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 const BtnReservar = document.getElementsByClassName("btn nav__btn");
 
+
 // Evento para abrir/cerrar el menú
 menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("open");
@@ -23,6 +24,7 @@ Array.from(BtnReservar).forEach((button) => {
     alert("Reserva realizada con éxito");
   });
 });
+
 
 // Configuración de ScrollReveal
 const scrollRevealOption = {
